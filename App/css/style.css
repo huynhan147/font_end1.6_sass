@@ -1,0 +1,129 @@
+* {
+  margin: 0px;
+  padding: 0px; }
+
+@font-face {
+  font-family: MyriadPro-Light;
+  src: url("../fonts/myriadpro-light.otf"); }
+
+.container {
+  min-height: 71.5vw;
+  background: linear-gradient(-150deg, #6049a9, #6049a9, #cc3b82, #d14681, #debd6d, #f3ae36);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .container .content {
+    width: 37.5vw;
+    height: 56.4vw;
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    box-shadow: 0.6vw 0.4vw 1.2vw #433e3f; }
+    .container .content .header {
+      width: 100%;
+      height: 3.7vw;
+      width: 92%;
+      display: flex;
+      padding: 1.5vw; }
+      .container .content .header .image-ava .avatar {
+        width: 3.4vw;
+        height: 3.4vw;
+        border-radius: 50%;
+        background-color: black; }
+      .container .content .header .user {
+        width: 11.1vw;
+        height: 80%;
+        padding: 0.5vw 0vw 0vw 1.2vw; }
+        .container .content .header .user p {
+          font-family: "MyriadPro-Light";
+          font-weight: bold;
+          color: #767676;
+          font-size: 1vw; }
+        .container .content .header .user img {
+          width: 8.2vw;
+          height: 1.5vw; }
+      .container .content .header .follow {
+        padding-left: 8vw;
+        padding-top: 0.5vw;
+        position: relative;
+        display: flex; }
+        .container .content .header .follow #fl2 {
+          position: absolute;
+          right: 4.5vw;
+          top: 1.7vw;
+          width: 3.7vw;
+          height: 0.8vw; }
+        .container .content .header .follow #fl1 {
+          width: 9.4vw;
+          height: 2.9vw;
+          padding-right: 0.8vw; }
+        .container .content .header .follow .option {
+          padding-top: 0.3vw;
+          padding-left: 0.9vw;
+          width: 0.5vw;
+          height: 2.2vw;
+          float: right; }
+    .container .content .images {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 38.4vw;
+      background-color: #dfdede; }
+      .container .content .images img {
+        width: 17.4vw;
+        height: 13.7vw; }
+    .container .content .footer {
+      width: 92%;
+      height: 11.5vw;
+      padding: 1.5vw;
+      display: flex;
+      flex-direction: column; }
+      .container .content .footer .nav {
+        display: flex; }
+      .container .content .footer .item2 {
+        width: 2.1vw;
+        height: 2.1vw;
+        padding: 0vw 1vw 0vw 1vw; }
+      .container .content .footer .item4 {
+        width: 2.8vw;
+        height: 2.2vw;
+        padding: 0vw 1vw 0vw 1vw; }
+      .container .content .footer .item3 {
+        width: 2.4vw;
+        height: 2.5vw;
+        padding-left: 19.7vw; }
+      .container .content .footer .item1 {
+        width: 2.5vw;
+        height: 2.2vw;
+        padding-right: 1vw; }
+    .container .content .like {
+      padding: 1.2vw 0vw 0vw 0vw; }
+      .container .content .like img:first-child {
+        width: 1.2vw;
+        height: 1vw;
+        padding-right: 0.5vw;
+        padding-bottom: 0.1vw; }
+      .container .content .like img:last-child {
+        width: 5.7vw;
+        height: 1.3vw; }
+    .container .content .status {
+      width: 100%;
+      padding-top: 2vw;
+      display: flex; }
+      .container .content .status .coon {
+        padding-left: 3.4vw;
+        font-size: 1.2vw; }
+      .container .content .status span {
+        font-family: "MyriadPro-Light";
+        font-weight: bold;
+        color: #356bb4; }
+      .container .content .status img {
+        width: 8.3vw;
+        height: 1.5vw; }
+  .container .design {
+    margin-top: 2.7vw; }
+    .container .design img {
+      width: 25.1vw;
+      height: 2.5vw; }

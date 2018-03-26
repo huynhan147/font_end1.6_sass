@@ -1,0 +1,199 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+@font-face {
+  font-family: MyriadPro-Light;
+  src: url("../fonts/myriadpro-light.otf");
+}
+$font_fa:"MyriadPro-Light";
+.container{
+  min-height: 71.5vw;
+  background:linear-gradient(-150deg, #6049a9,#6049a9,#cc3b82,#d14681,#debd6d,#f3ae36);
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+  .content{
+    width: 37.5vw;
+    height: 56.4vw;
+    display: flex;
+    background-color: white;
+    flex-direction: column;
+    box-shadow: 0.6vw 0.4vw 1.2vw #433e3f;
+    .header{
+    
+      width: 100%;
+      height: 3.7vw;
+      width: 92%;
+      //position: relative;
+      display: flex;
+      padding: 1.5vw;
+      .images{
+
+      }
+     .image-ava{
+       //padding: 1.2vw 1.2vw 0.75vw 1.2vw;
+       .avatar{
+         width: 3.4vw;
+         height: 3.4vw;
+         border-radius: 50%;
+         background-color: black;
+       }
+     }
+      .user{
+        width: 11.1vw;
+        height: 80%;
+        padding: 0.5vw 0vw 0vw 1.2vw;
+        img{
+          //padding-top: 1.5vw;
+        }
+        p{
+          font-family: $font_fa;
+          font-weight: bold;
+          color: #767676;
+          font-size: 1vw;
+          //margin-bottom: 2vm;
+        }
+        img{
+          width: 8.2vw;
+          height: 1.5vw;
+        }
+      }
+      .follow{
+        //padding: 1.5vw 0vw 0vw 7.5vw;
+        //float: right;
+        padding-left: 8vw;
+        padding-top: 0.5vw;
+        position: relative;
+        display: flex;
+        #fl2{
+
+
+          position: absolute;
+          right: 4.5vw;
+          //left: 3vw;
+          top: 1.7vw;
+          width: 3.7vw;
+          height: 0.8vw;
+
+        }
+        #fl1{
+          width: 9.4vw;
+          height: 2.9vw;
+          padding-right: 0.8vw;
+          //margin-right: 1vw;
+          //position: absolute;
+          //left: 9vm;
+          //right: 2vw;
+          //padding-right: 1vw;
+        }
+        .option{
+          //padding: 0.3vw 1.5vw 1.3vw 11vw;
+          padding-top: 0.3vw;
+          padding-left: 0.9vw;
+          width: 0.5vw;
+          height: 2.2vw;
+          float: right;
+        }
+      }
+
+
+    }
+    .images{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 38.4vw;
+      background-color: #dfdede;
+      img{
+        width: 17.4vw;
+        height: 13.7vw;
+
+      }
+    }
+    .footer{
+      width: 92%;
+      height: 11.5vw;
+      padding: 1.5vw;
+      display: flex;
+      flex-direction: column;
+      .nav{
+        display: flex;
+      }
+      .item2{
+        //padding: 2vw 2vw 0vw 0vw;
+        width: 2.1vw;
+        height: 2.1vw;
+        padding: 0vw 1vw 0vw 1vw;
+
+      }
+      .item4{
+        //padding: 2vw 2vw 0vw 0vw;
+        width: 2.8vw;
+        height: 2.2vw;
+        padding: 0vw 1vw 0vw 1vw;
+      }
+      .item3{
+        //padding: 2vw 2vw 0vw 18.5vw;
+        width: 2.4vw;
+        height: 2.5vw;
+        //padding: 0vw 1vw 0vw 1vw;
+        //float: right;
+        padding-left: 19.7vw;
+      }
+      .item1{
+        //padding: 2vw 2vw 0vw 2vw;
+        width: 2.5vw;
+        height: 2.2vw;
+        padding-right: 1vw;
+      }
+    }
+    .like{
+      //padding: 1.2vw 0vw 0vw 2.3vw;
+      padding: 1.2vw 0vw 0vw 0vw;
+      img:first-child{
+        width: 1.2vw;
+        height: 1vw;
+        padding-right: 0.5vw;
+        padding-bottom: 0.1vw;
+
+      }
+      img:last-child{
+        width: 5.7vw;
+        height: 1.3vw;
+      }
+    }
+    .status{
+      width: 100%;
+      //padding: 1.5vw 0vw 2vw 2.3vw;
+      padding-top: 2vw;
+      display: flex;
+      .coon{
+        padding-left: 3.4vw;
+        font-size: 1.2vw;
+      }
+      span{
+        font-family: $font_fa;
+        font-weight: bold;
+        color: #356bb4;
+        //padding-bottom: 2.7vw;
+
+      }
+      img{
+        width: 8.3vw;
+        height: 1.5vw;
+      }
+    }
+  }
+  .design{
+    margin-top: 2.7vw;
+    img{
+      width: 25.1vw;
+      height: 2.5vw;
+    }
+  }
+}
